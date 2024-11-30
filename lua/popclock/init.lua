@@ -55,7 +55,6 @@ local function open_clock_window(opts)
         vim.api.nvim_command("highlight MyClockBg guibg=" .. opts.bgcolor)
     end
 
-
     -- Set the background color after creating the window
     vim.api.nvim_win_set_option(popclock_win, "winhighlight", "Normal:MyClockBg")
 
