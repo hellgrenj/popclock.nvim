@@ -90,13 +90,13 @@ end
 function M.setup(opts)
     opts = opts or {}
     if opts.key_binding == nil then
-        opts.key_binding = "<leader>cl"
+        opts.key_binding = "<leader>kl"
     end
     if opts.position == nil then
-        opts.position = 'center'
+        opts.position = 'top'
     end
     if opts.fgcolor == nil then
-        opts.fgcolor = "magenta"
+        opts.fgcolor = "#b5befe"
     end
 
     local is_open = false

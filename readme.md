@@ -16,10 +16,10 @@ Using **Lazy.nvim**:
   "hellgrenj/popclock.nvim",
   config = function()
     require("popclock").setup({
-      key_binding = "<leader>cl", -- Default: <leader>cl
-      position = "center",       -- Default: 'center'
-      fgcolor = "#FFFFFF",       -- Default: 'magenta'
-      bgcolor = "#000000",       -- Default: nil (transparent)
+      key_binding = "<leader>kl", -- Default: <leader>kl
+      position = "top",       -- Default: 'center'
+      fgcolor = "#b5befe",       -- Default: '#b5befe'
+      bgcolor = nil,       -- Default: nil (transparent)
     })
   end,
 }
